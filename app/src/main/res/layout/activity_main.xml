@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="120dp"
+            android:paddingRight="15dp"
+            android:src="@mipmap/heado" />
+
+        <View
+            android:layout_width="5px"
+            android:layout_height="40dp"
+            android:layout_marginTop="120dp"
+            android:layout_toRightOf="@id/head"
+            android:background="#22000000"
+            ></View>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="122dp"
+            android:layout_toRightOf="@id/head"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="输入手机号"
+            android:textSize="17dp"
+            android:inputType="number"
+            android:maxLength="11"
+            android:paddingLeft="15dp"
+            android:singleLine="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:layout_below="@id/head"
+            android:background="#22000000"
+            ></View>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:layout_marginTop="120dp"
+            android:background="#22000000"
+            ></View>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:layout_below="@id/lock"
+            android:background="#22000000"
+            ></View>
+
+        <ImageView
+            android:id="@+id/lock"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/head"
+            android:layout_alignLeft="@id/head"
+            android:paddingRight="15dp"
+            android:src="@mipmap/locko" />
+
+        <View
+            android:layout_width="5px"
+            android:layout_height="40dp"
+            android:layout_below="@id/head"
+            android:layout_toRightOf="@id/lock"
+            android:background="#22000000"
+            ></View>
+
+        <EditText
+            android:id="@+id/passwd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/lock"
+            android:layout_below="@id/phone"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:background="@null"
+            android:hint="输入密码"
+            android:textSize="17dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="登录成功后你将成为冰峰新闻开发者的一份子"
+            android:textColor="#A8A7A7" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/lock"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/btn"
+            android:text="登录"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/lock"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:background="@drawable/btn"
+            android:text="注册" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:textSize="15dp"
+            android:text="登录或注册代表您已同意《冰峰实验室协议》" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/response_text"
+            android:textColor="#058874"
+                />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

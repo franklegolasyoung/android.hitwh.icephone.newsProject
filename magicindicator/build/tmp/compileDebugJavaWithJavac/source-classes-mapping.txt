@@ -1,0 +1,66 @@
+net/lucode/hackware/magicindicator/NavigatorHelper.java
+ net.lucode.hackware.magicindicator.NavigatorHelper
+ net.lucode.hackware.magicindicator.NavigatorHelper$OnNavigatorScrollListener
+net/lucode/hackware/magicindicator/buildins/commonnavigator/titles/CommonPagerTitleView.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.CommonPagerTitleView
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.CommonPagerTitleView$ContentPositionDataProvider
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.CommonPagerTitleView$OnPagerTitleChangeListener
+net/lucode/hackware/magicindicator/buildins/circlenavigator/CircleNavigator.java
+ net.lucode.hackware.magicindicator.buildins.circlenavigator.CircleNavigator
+ net.lucode.hackware.magicindicator.buildins.circlenavigator.CircleNavigator$OnCircleClickListener
+net/lucode/hackware/magicindicator/buildins/commonnavigator/titles/badge/BadgeAnchor.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.badge.BadgeAnchor
+net/lucode/hackware/magicindicator/buildins/UIUtil.java
+ net.lucode.hackware.magicindicator.buildins.UIUtil
+net/lucode/hackware/magicindicator/BuildConfig.java
+ net.lucode.hackware.magicindicator.BuildConfig
+net/lucode/hackware/magicindicator/buildins/commonnavigator/abs/IPagerIndicator.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerIndicator
+net/lucode/hackware/magicindicator/buildins/commonnavigator/titles/SimplePagerTitleView.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.SimplePagerTitleView
+net/lucode/hackware/magicindicator/buildins/commonnavigator/abs/CommonNavigatorAdapter.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.CommonNavigatorAdapter
+net/lucode/hackware/magicindicator/buildins/commonnavigator/indicators/WrapPagerIndicator.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.indicators.WrapPagerIndicator
+net/lucode/hackware/magicindicator/buildins/commonnavigator/indicators/TriangularPagerIndicator.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.indicators.TriangularPagerIndicator
+net/lucode/hackware/magicindicator/buildins/commonnavigator/titles/DummyPagerTitleView.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.DummyPagerTitleView
+net/lucode/hackware/magicindicator/buildins/commonnavigator/model/PositionData.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.model.PositionData
+net/lucode/hackware/magicindicator/MagicIndicator.java
+ net.lucode.hackware.magicindicator.MagicIndicator
+net/lucode/hackware/magicindicator/FragmentContainerHelper.java
+ net.lucode.hackware.magicindicator.FragmentContainerHelper
+ net.lucode.hackware.magicindicator.FragmentContainerHelper$1
+ net.lucode.hackware.magicindicator.FragmentContainerHelper$2
+net/lucode/hackware/magicindicator/buildins/commonnavigator/titles/ColorTransitionPagerTitleView.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.ColorTransitionPagerTitleView
+net/lucode/hackware/magicindicator/buildins/commonnavigator/titles/badge/BadgePagerTitleView.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.badge.BadgePagerTitleView
+net/lucode/hackware/magicindicator/buildins/ArgbEvaluatorHolder.java
+ net.lucode.hackware.magicindicator.buildins.ArgbEvaluatorHolder
+net/lucode/hackware/magicindicator/abs/IPagerNavigator.java
+ net.lucode.hackware.magicindicator.abs.IPagerNavigator
+net/lucode/hackware/magicindicator/ViewPagerHelper.java
+ net.lucode.hackware.magicindicator.ViewPagerHelper
+ net.lucode.hackware.magicindicator.ViewPagerHelper$1
+net/lucode/hackware/magicindicator/buildins/commonnavigator/titles/badge/BadgeRule.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.badge.BadgeRule
+net/lucode/hackware/magicindicator/buildins/commonnavigator/indicators/TestPagerIndicator.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.indicators.TestPagerIndicator
+net/lucode/hackware/magicindicator/buildins/commonnavigator/titles/ClipPagerTitleView.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.ClipPagerTitleView
+net/lucode/hackware/magicindicator/buildins/commonnavigator/abs/IMeasurablePagerTitleView.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView
+net/lucode/hackware/magicindicator/buildins/commonnavigator/abs/IPagerTitleView.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTitleView
+net/lucode/hackware/magicindicator/ScrollState.java
+ net.lucode.hackware.magicindicator.ScrollState
+net/lucode/hackware/magicindicator/buildins/commonnavigator/indicators/LinePagerIndicator.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.indicators.LinePagerIndicator
+net/lucode/hackware/magicindicator/buildins/commonnavigator/indicators/BezierPagerIndicator.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.indicators.BezierPagerIndicator
+net/lucode/hackware/magicindicator/buildins/commonnavigator/CommonNavigator.java
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator
+ net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator$1
